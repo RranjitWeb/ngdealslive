@@ -1,0 +1,105 @@
+<!-- <div class="row">
+    <div class="col">
+        <li class="list-group-item">
+            <a href="javascript:void(0)" (click)="searchProduct('Daily Wear Palazzos')">
+                Daily Wear Palazzos
+            </a>
+        </li>
+</div> -->
+
+<!-- <div class="row mb-5" *ngFor="let category of apiService.products">
+    <h5 class="card-title"> {{category.title}} </h5>
+    <div class="col-xs-12 col-sm-6 col-md-4 mt-3 mb-3" *ngFor="let product of category.productList">
+            <div class="card h-100">
+                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                    {{product.tagLine}}</div>
+                <div class="image-container">
+                    <img class="card-img-top" [src]="product.image" alt="..." />
+                </div>                
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder card-title">{{product.title}}</h5>
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star-fill">*</div>
+                            <div class="bi-star-fill">*</div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <div style="min-height: 50px;">
+                        <p>
+                            <span class="text-muted text-decoration-line-through" 
+                            *ngIf="product.regularPrice">Rs{{product.regularPrice}}</span>
+                            <span *ngIf="product.salePrice"> Rs{{product.salePrice}} </span>
+                            <br>
+                            <span *ngIf="product.discount"> Discount: {{product.discount}}% </span>
+                        </p>
+                    </div>
+                    <div class="action-btn">
+                        <a class="btn btn-primary" [href]="['p', product.title]" target="_blank"> View Details </a>
+                        <a class="btn btn-primary" href="javascript:void(0)" (click)="apiService.navigateTo( product.title)"> View Details </a>
+                        <a class="btn btn-primary" href="javascript:void(0)" (click)="apiService.searchProductsLocal(category.title, product.title)"> View Details </a>
+                        <a class="btn btn-primary" [href]="product.affiliateLink" target="_blank"> Shop Now </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div> -->
+<!-- =================================================== -->
+
+
+<div class="container-fluid">
+    <div class="row mb-5" *ngFor="let category of apiService.products">
+        <h5 class="card-title"> {{category.title}} </h5>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 mb-3"
+            *ngFor="let product of category.productList">
+            <div class="card-deck">
+                <div class="card">
+                    <span *ngIf="product.discount" class="dicount-Percent">
+                        {{product.discount}}%
+                    </span>
+                    <p class="badge">
+                        {{product.tagLine}}
+                    </p>
+                    <div class="image-container">
+                        <img class="card-img-top" [src]="product.image" alt="{{product.title}}">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> {{product.title}} </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <!-- Product price-->
+                        <div style="min-height: 50px;">
+                            <p>
+                                <span *ngIf="product.salePrice" class="price">
+                                    {{product.salePrice}}
+                                </span>
+                                <span *ngIf="product.regularPrice" class="text-muted text-decoration-line-through">
+                                    {{product.regularPrice}}
+                                </span>
+                                <br>
+                                <span *ngIf="product.discount">
+                                    Savings: ₹{{product.discount}}%
+                                </span>
+                                
+                            </p>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="action-btn">
+                            <!-- <a class="btn btn-primary" [href]="['p', product.title]" target="_blank"> View Details </a> -->
+                            <!-- <a class="btn btn-primary" href="javascript:void(0)" (click)="apiService.navigateTo( product.title)"> View Details </a> -->
+                            <!-- (click)="apiService.searchProductsLocal(category.title, product.title)" -->
+                            <a class="btn btn-primary" href="javascript:void(0)"
+                                (click)="apiService.searchProductsLocal(category.title, product.title)"> View Details
+                            </a>
+                            <a class="btn btn-primary" [href]="product.affiliateLink" target="_blank"> Shop Now </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

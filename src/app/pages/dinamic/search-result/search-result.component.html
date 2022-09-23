@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <div class="row">
+        <p>Result: <span class="search-str"> {{apiService.searchStr}} </span></p>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 mb-3"
+            *ngFor="let item of apiService.searchResults">
+            <div class="card-deck">
+                <div class="card">
+                    <p class="badge" *ngIf="item.Offers?.Summaries[0]?.Condition?.Value">
+                        <!-- Best Seller -->
+                        {{item.Offers.Summaries[0].Condition.Value}}
+                    </p>
+                    <div class="image-container">
+                        <img class="card-img-top" [src]="item.Images.Primary.Large.URL"
+                            alt="{{item.ItemInfo.Title.DisplayValue}}">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> {{item.ItemInfo.Title.DisplayValue}} </h5>
+                    </div>
+                    <div class="card-footer text-center">
+                        <!-- Product price-->
+                        <div style="min-height: 50px;">
+                            <p>
+                                <span *ngIf="item.Offers?.Listings[0]?.Price?.DisplayAmount" class="price">
+                                    {{item.Offers.Listings[0].Price.DisplayAmount}}
+                                </span>
+                                <span *ngIf="item.Offers?.Listings[0]?.SavingBasis?.DisplayAmount"
+                                    class="text-muted text-decoration-line-through">
+                                    {{item.Offers.Listings[0].SavingBasis.DisplayAmount}}
+                                </span>
+                                <br>
+                                <span *ngIf="item.Offers?.Listings[0]?.Price?.Savings?.DisplayAmount">
+                                    Savings: ₹{{item.Offers.Listings[0].Price.Savings.Amount}}
+                                </span>
+                                <span *ngIf="item.Offers?.Listings[0]?.Price?.Savings?.Percentage"
+                                    class="dicount-Percent">
+                                    {{item.Offers.Listings[0].Price.Savings.Percentage}}%
+                                </span>
+                            </p>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="action-btn">
+                            <!-- <a class="btn btn-primary" [href]="['p', product.title]" target="_blank"> View Details </a> -->
+                            <!-- <a class="btn btn-primary" href="javascript:void(0)" (click)="apiService.navigateTo( product.title)"> View Details </a> -->
+                            <!-- (click)="apiService.searchProductsLocal(category.title, product.title)" -->
+                            <a class="btn btn-primary" href="javascript:void(0)"> View Details </a>
+                            <a class="btn btn-primary" [href]="item.DetailPageURL" target="_blank"> Shop Now </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

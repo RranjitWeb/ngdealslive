@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="col">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <a href="javascript:void(0)" (click)="apiService.goBack()" style="font-size: 25px;">
+                    <i class="fa fa-angle-left fa-lg" aria-hidden="true" style="font-size: 40px; font-weight: bold;"></i>
+                    <span style="color:blue">Back</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-2 mb-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="images p-3">
+                            <div class="text-center p-4">
+                                <img id="main-image" [src]="apiService.product.image" width="250" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product p-4">
+                            <div class="mt-4 mb-3">
+                                <span class="text-uppercase text-muted brand">{{apiService.product.tagLine}}</span>
+                                <h5 class="text-uppercase">{{apiService.product.title}}</h5>
+                                <div style="min-height: 50px;">
+                                    <p>
+                                        <span *ngIf="apiService.product.salePrice">
+                                            {{apiService.product.salePrice}}
+                                        </span>
+                                        <span class="text-muted text-decoration-line-through"
+                                            *ngIf="apiService.product.regularPrice">
+                                            {{apiService.product.regularPrice}}
+                                        </span>
+                                        <br>
+                                        <span *ngIf="apiService.product.discount">
+                                            Saving:
+                                            ₹{{apiService.product.discount}}%
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="about">{{apiService.product.description}}.</p>
+                            <div class="cart mt-4 align-items-center">
+                                <button class="btn btn-danger text-uppercase mr-2 px-4">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

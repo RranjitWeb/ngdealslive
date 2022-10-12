@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- categories -->
     <url>
         <loc>http://dealslive.in/categories</loc>
     </url>
@@ -57,77 +58,166 @@
     <url>
         <loc>http://dealslive.in/category/computers-and-accessories</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/home-and-Kitchen</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/kindle-store</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/tools-and-home-improvement</loc>
     </url>
     <url>
         <loc>http://dealslive.in/category/toys-and-games</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/baby</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/office-products</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/grocery-and-gourmet-foods</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/garden-and-outdoors</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/appliances</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/apps-and-games</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/pet-supplies</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/video-games</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/gift-cards</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/musical-instruments</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/movies-and-tv-shows</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/collectibles</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/category/music</loc>
     </url>
     <url>
         <loc>http://www.dealslive.in/category/best-sellers-in-shoes-and-handbags</loc>
     </url>
-    <!--  -->
+
+    <url>
+        <loc>http://dealslive.in/category/music</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/music</loc>
+    </url>
+    <!-- plazzo categories -->
+    <url>
+        <loc>http://dealslive.in/category/plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/pent-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/white-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/black-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/golden-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/cotton-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/skirt-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/denim-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/plazzo-pant-for-women</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/plazzo-for-women</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/printed-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/types of plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/w-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/sharara-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/chikankari-plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/stylish plazzo</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/plazzo-with-jacket</loc>
+    </url>
+    <!-- sarees categories -->
+    <url>
+        <loc>http://dealslive.in/category/sarees</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/ladies-sharee</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/mitu-katan-saree-ghor</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/emblished-saree</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/half-silk-sharee</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/banarasi-saree</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/banarasi-silk-saree</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/banarasi-silk-saree-for-wedding</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/banarasi-saree-for-wedding</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/katan-silk</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/katan-saree</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/red-banarasi-saree</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/banarasi-saree-online</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/pure-banarasi-saree</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/original-banarasi-saree</loc>
+    </url>
+    <!-- products -->
     <url>
         <loc>http://dealslive.in/product/t-shirt</loc>
     </url>
@@ -137,7 +227,6 @@
     <url>
         <loc>http://dealslive.in/product/thinkpad</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/product/gaming-laptop</loc>
     </url>
@@ -147,7 +236,6 @@
     <url>
         <loc>http://dealslive.in/product/lenovo-ideapad</loc>
     </url>
-
     <url>
         <loc>http://dealslive.in/product/acer-nitro-5</loc>
     </url>

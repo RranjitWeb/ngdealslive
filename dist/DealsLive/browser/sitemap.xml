@@ -11,6 +11,15 @@
         <loc>http://dealslive.in/category/best-seller</loc>
     </url>
     <url>
+        <loc>http://dealslive.in/category/deals today</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/top-selling-cloth</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/top-selling-sarees</loc>
+    </url>
+    <url>
         <loc>http://dealslive.in/category/men-fashion</loc>
     </url>
     <url>
@@ -119,6 +128,26 @@
     <url>
         <loc>http://dealslive.in/category/music</loc>
     </url>
+    <!-- CLOTHING -->
+    <url>
+        <loc>http://dealslive.in/category/clothing</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/casual-shirts</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/jeans</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/formal-shirs</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/ethnic-wear</loc>
+    </url>
+    <!-- WOOMENS -->
+    <url>
+        <loc>http://dealslive.in/product/funday-fashion-womens-shirt</loc>
+    </url>
     <!-- plazzo categories -->
     <url>
         <loc>http://dealslive.in/category/plazzo</loc>
@@ -222,7 +251,7 @@
         <loc>http://dealslive.in/product/t-shirt</loc>
     </url>
     <url>
-        <loc>http://dealslive.in/product/shreya-fashion---artificial-marigold-yollew-flowers-garlands-hanging-door-toran-latkans-for-all-festivals-and-special-events-,home,-office,garden-diwali-decorations</loc>
+        <loc>http://dealslive.in/product/shreya-fashion-artificial-marigold-yollew-flowers-garlands-hanging-door-toran-latkans</loc>
     </url>
     <url>
         <loc>http://dealslive.in/product/thinkpad</loc>
@@ -246,8 +275,183 @@
         <loc>http://dealslive.in/product/macbook-air-m1</loc>
     </url>
     <url>
-        <loc>http://dealslive.in/product/lg-190-l-4-star-inverter-direct-cool-single-door-refrigerator--gl-b201aspy,-scarlet-plumeria,-moist-'n'-fresh-</loc>
+        <loc>http://dealslive.in/product/lg-190-l-4-star-inverter-direct-cool-single-door-refrigerator</loc>
     </url>
-
+    <!-- WINTER -->
+    <url>
+        <loc>http://dealslive.in/category/winter-wear</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-wear-for-women</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-clothes-for-women</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/cute-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-wear-for-men</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-clothes-for-men</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-outfits-2022</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-wear-for-ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/casual-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-birthday-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-inner-wear</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/thermal-wear-for-winter-for-ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-party-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/woolen-kurtis</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-dress-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-workout-clothes</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-skirt-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/woolen-kurti-amazon</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/dress-for-winter</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-outfits for ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/best-thermal-wear-for-winter</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-kurti-for-ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winte-casual-outfits-for-ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-formal-dress</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-salwar-suits-for-ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-office-wear</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/mens-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-office-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-white-jeans</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/jockey-winter-wear</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/thermal-clothing-for-winter</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-brunch-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-pregnancy-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/classy-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/trendy-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-clubbing-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/dress-warm</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/womens-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-inner-wear-for-womens</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-wear-designs</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/formal-winter-wear</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/cool-winter-outfits</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/winter-track-suit-for-ladies</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/lux-cozi-winter-wear</loc>
+    </url>
+    <!-- DEEPAWALI -->
+    <url>
+        <loc>http://dealslive.in/product/deepawali-ki-shopping</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/diwali-diya</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/diwali-pooja</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/deepawali-greetings</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/greetings-for-diwali</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/deepavali-greeting-card</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/diwali-2022-gifts</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/diwali-offer-shopping</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/amazon-diwali-gift</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/online-diwali-sale</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/diwali-decoration-items-shop</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/diwali-shop-decoration</loc>
+    </url>
+    <url>
+        <loc>http://dealslive.in/category/buy-diwali-gifts-online</loc>
+    </url>
 
 </urlset>
